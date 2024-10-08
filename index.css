@@ -1,0 +1,377 @@
+
+body{
+   font-family: system-ui;
+   margin:0px;
+   overflow-x: hidden;
+}
+.header{  
+   width:100%;  
+   height: 70px;
+}
+.container{
+   margin-left: 100px;
+   height: 100%;
+   margin-right: 100px;
+   display: flex;
+}
+
+.icon:hover{
+   cursor: pointer;
+}
+.icon p{
+   
+   color: #055fb1e8;
+   font-size: 25px;
+   font-family: sans-serif;
+   font-weight: 700;
+}
+.icon img{
+   width: 23px;
+   height: 22px;
+   vertical-align: baseline;
+}
+.option{
+   display: flex;
+   margin-left: 219px;
+}
+.symbol{
+   margin-left: 38px;
+   margin-top: 17px;
+}
+.symbol p{
+   margin-top: 0;
+   font-size: 13px;
+
+}
+.symbol img+p:hover{
+   cursor: pointer;
+}
+
+.join{
+   display: flex;
+   margin-top: 1px;
+   margin-left: 35px;
+}
+.join button{
+   cursor: pointer;
+}
+.join .SignIn{
+   width: 104px;
+   height: 50px;
+   margin-top: 16px;
+   font-size: 17px;
+   border-radius: 26px;
+   background:white;
+   border: 0.5px solid blue;
+   margin-left: 8px;
+   font-weight: 500;
+}
+.join .SignIn:hover{
+   background-color: rgb(240, 240, 245);
+}
+.join .JoinNow{
+   font-weight: 500;
+    width: 110px;
+    height: 51px;
+    margin-top: 16px;
+    font-size: 17px;
+    border-radius: 26px;
+    color: white;
+    background: #1818b1;
+    border: 0.5px solid blue;
+    margin-left: 8px;
+    opacity: 0.8;
+}
+.join .JoinNow:hover{
+   opacity: 1;
+}
+.content{
+   width: 100%;
+   height: 573px;
+}
+.container-fluid{
+   width: 93%;
+   height: 100%;
+   margin-left: 100px;
+   margin-top: 60px;
+}
+.rightside{
+  float:left;
+  margin-left: 68px;
+}
+.leftside{
+   width: 521px;
+   float:left;
+}
+.leftside .left-letter{
+   font-size: 49px;
+   color: #4d4d54;
+}
+.leftside a:hover{
+   text-decoration: underline;
+}
+.leftside button{
+   width: 412px;
+   border-radius: 25px;
+   font-family: system-ui;
+   background: #ffffff00;
+   margin-top: 7px;
+   border: 0.05px solid #0000008c;
+  
+}
+.leftside button:hover{
+   cursor: pointer;
+   background-color: rgb(248, 247, 247);
+   border:1.5px solid black
+}
+.leftside button img{
+   float: left;
+   margin-left: 119px;
+   margin-top: 10px;
+}
+.leftside button p{
+   float: left;
+}
+.leftside .email{
+   padding: 14px;
+}
+.leftside p a{
+   color:blue;
+   text-decoration: none;
+}
+.article{
+   width:100%;
+   height:280px;
+}
+.contain{
+   height: 100%;
+   margin-left: 100px;
+}
+
+.left{
+   float: left;
+   width: 50%;
+}
+.right{
+   float: left;
+   width: 50%;
+}
+.right button{
+   float: left;
+}
+.head{
+   font-size: 30px;
+   color: #282626;
+}
+.right button{
+   padding: 13px;
+   border-radius: 31px;
+   font-size: 17px;
+   font-family: system-ui;
+   margin-left: 9px;
+   margin-top: 11px;
+   border: 0.05px solid black;
+   background-color: white;
+}
+.right button:hover{
+   cursor: pointer;
+   background-color: rgb(228, 224, 224);
+}
+.post{
+   text-align: center;
+   background: #b7787840;
+   padding-top: 24px;
+   margin-top: 120px;
+   height: 240px;
+}
+.post button{
+   padding: 15px;
+   border-radius: 39px;
+   width: 102px;
+   font-size: 15px;
+   color: blue;
+   border: 0.05px solid blue;
+   background: #b7787812;
+}
+.post button:hover{
+   cursor: pointer;
+   background-color: rgb(204, 204, 232);
+}
+.left button{
+   width: 244px;
+    padding: 15px;
+    border-radius: 43px;
+    border: 0.05px solid #000000a1;
+    font-size: medium;
+    color: #4e4949b8;
+    background: white;
+}
+.left button:hover{
+   cursor: pointer;
+   color:black;
+}
+
+.right1{
+   float: left;
+   width: 50%;
+}
+.right1 button{
+   padding: 15px;
+   border-radius: 0px;
+   border: 0.005px solid #00000030;
+   background: white;
+
+}
+.right1 button:hover{
+   cursor:pointer;
+}
+.dropdown{
+   width: 357px;
+   padding: 10px;
+   position: static;
+}
+
+
+.group{
+   line-height: 2px;
+   margin-top: 44px;
+}
+.dropdown:hover > .dropdownlist{
+   visibility: visible;
+}
+.left1{
+   float: left;
+   width: 50%;
+   padding-top: 84px;
+   line-height: 5px;
+   background-color: #adaaa736;
+   height: 410px;
+}
+.inleftside{
+   margin-left: 125px;
+}
+.inleftside button{
+   font-size: 19px;
+   background: #df717129;
+   border: none;
+   opacity: 0.5;
+   height: 52px;
+}
+.inleftside button:hover{
+   opacity:1;
+   cursor: pointer;
+}
+.left1 button{
+   padding: 12px;
+   text-align: left;
+   width: 354px;
+   font-size: 15px;
+   font-family: system-ui;
+   margin-top: 10px;
+}
+.right2{
+   float: left;
+   width: 50%;
+}
+.right2 img{
+   width: 619px;
+   margin-left: 95px;
+   margin-top: -51px;
+}
+.left2{
+   float: left;
+   width: 50%;
+   margin-top: 20px;
+}
+.right3{
+   float: left;
+   width: 805px;
+   height: 635px;
+   background: #1ed5820f;
+   margin-left: -142px;
+   
+}
+.left2 iframe{
+   margin-left: 98px;
+   margin-top: 151px;
+}
+.right3content{
+   margin-top: 38%;
+   margin-left: 27%;
+   line-height: 5px;
+}
+.get{
+   line-height: 8px;
+   background-image: linear-gradient(to bottom, white, #0089ff24);
+}
+
+.get p{
+   font-size: 47px;
+   margin-left: 156px;
+}
+.get button{
+   margin-left: 156px;
+   padding: 16px;
+   width: 141px;
+   border-radius: 31px;
+   background: blue;
+   color: white;
+   font-weight: 700;
+   border: none;
+   opacity:0.75;
+}
+.flex{
+   display: flex;
+   background-color: #adaaa736;
+   margin-top: 16px;
+}
+.flex .lists{
+   width: 250px;
+   height: 100%;
+}
+.lists li{
+   list-style-type: none;
+}
+footer p a{
+   float: left;
+   margin-left: 20px;
+   font-size: 13px;
+   color: #000000a3;
+   text-decoration: none;
+}
+footer p a:hover{
+   color:blue;
+   text-decoration: underline;
+}
+.main a{
+   color: black;
+   text-decoration: none;
+}
+.sub a{
+   text-decoration: none;
+   color: #00000070;
+}
+.get button:hover{
+   cursor: pointer;
+   opacity: 1;
+   
+}
+.flex p:hover{
+   cursor:default;
+}
+.flex .main a:hover{
+   cursor:text;
+}
+.sub a:hover{
+   color:blue;
+   text-decoration: underline;
+}
+footer .linked{
+   color: black;
+   font-size: 15px;
+   font-weight: 700;
+}
+footer img{
+   height: 20px;
+   vertical-align: bottom;
+}
